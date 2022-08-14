@@ -127,10 +127,10 @@ footer p {
     width:100%;     
     height: auto;
 }
-@media (max-width:300px) {
-    footer{
+@media (max-width:768px) {
+    /* footer{
         height:auto;
-    }
+    } */
     .container {
         margin-top: 70px;
     }
