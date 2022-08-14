@@ -128,9 +128,9 @@ const questions = [
   {
     question: 'The writer of our national anthem is -',
     answers: [
-      { text: 'Rabindra Nath Tagore', correct: false },
+      { text: 'Rabindra Nath Tagore', correct: true },
       { text: 'Bankimchandra Chatterjee', correct: false },
-      { text: 'Mohd Iqbal', correct: true },
+      { text: 'Mohd Iqbal', correct: false },
       { text: 'Aurobindo Ghosh', correct: false }
     ]
   },

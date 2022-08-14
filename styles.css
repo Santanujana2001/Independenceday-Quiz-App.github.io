@@ -22,7 +22,8 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    /* background-color: hsl(39, 100%, 50%); */
+    background-color: orange;
 }
 
 body.correct {
@@ -109,7 +110,7 @@ footer {
     bottom:0;
     height: 45px;
     color: rgb(255, 255, 255);
-    background-color:rgba(0, 0, 0, 0.29);
+    background-color:rgba(0, 128, 0, 0.531);
     width: 100%;
 }
 
