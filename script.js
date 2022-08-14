@@ -1,5 +1,6 @@
-let play = function(){document.getElementById("audio").play()}
+// let playe = function(){document.getElementById("audio").play()}
 // above 2 lines for music add
+let play = function(){document.getElementById("videoBG").play()}
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -80,42 +81,66 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'Who designed the national flag of India ?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Pingali Venkayya', correct: true },
+      { text: 'G.K.Gokhale', correct: false },
+      { text: 'Dadabhai Naroji', correct: false },
+      { text: 'Pherozeshah Mehta', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'In which year did the Quit India Movement begin ?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: '1938', correct: false },
+      { text: '1942', correct: true },
+      { text: '1945', correct: false },
+      { text: '1948', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'What is the official approx. duration of the Indian National Anthem ?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: '50', correct: false },
+      { text: '51', correct: false },
+      { text: '52', correct: true },
+      { text: '53', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'How many princely states were there in the country before Independence ?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: '543', correct: false },
+      { text: '550', correct: false },
+      { text: '565', correct: true },
+      { text: '575', correct: false }
     ]
   },
   {
-    question: 'What is 3 * 2?',
+    question: 'What is ratio of the length and width of the our national flag ?',
     answers: [
-      { text: '6', correct: true },
-      { text: '8', correct: false }
+      { text: '3:2', correct: true },
+      { text: '2:2', correct: false },
+      { text: '2:3', correct: false },
+      { text: '2:1', correct: false }
+    ]
+  },
+  {
+    question: 'The writer of our national anthem is -',
+    answers: [
+      { text: 'Rabindra Nath Tagore', correct: false },
+      { text: 'Bankimchandra Chatterjee', correct: false },
+      { text: 'Mohd Iqbal', correct: true },
+      { text: 'Aurobindo Ghosh', correct: false }
+    ]
+  },
+  {
+    question: 'How many spokes are there in the Ashoka Chakra ?',
+    answers: [
+      { text: '32', correct: false },
+      { text: '28', correct: false },
+      { text: '30', correct: false },
+      { text: '24', correct: true }
     ]
   }
 ]

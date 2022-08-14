@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js" ></script>
     <title>Quick Quiz</title>
+    <link rel="shortcut icon" href="flag.png" type="image/x-icon">
 </head>
-<body>
+<body onload="play();">
     <div class="container">
+      <img src="gf.gif" class="imgbg" alt="background">
        <div id="question-container" class="hide">
           <div id="question">Question</div>
           <div id="answer-buttons" class="btn-grid">
@@ -20,10 +22,16 @@
           </div>
        </div>
        <div class="controls">
-       <button id="start-btn" class="start-btn btn" onclick="play()">Start</button>
-       <audio id="audio" src="start.mp3"></audio>
+       <button id="start-btn" class="start-btn btn" onclick="play()">Start Quiz On Independence Day</button>
+       <!-- <audio id="audio" src="start.mp3" loop></audio> -->
        <button id="next-btn" class="next-btn btn hide">Next</button>
       </div>
     </div>
+    <video id="videoBG" poster="poster.JPG" loop>
+      <source src="vidd2.mp4" type="video/mp4">
+  </video>
+    <footer>
+      <p class="gg">All Rights Reserved By &copy; Santanu Jana</p>
+  </footer>
 </body>
 </html>
